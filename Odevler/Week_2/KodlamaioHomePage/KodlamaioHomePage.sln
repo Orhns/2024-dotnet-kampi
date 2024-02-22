@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "KodlamaioHomePage\ConsoleUI.csproj", "{E7338236-1233-49AD-8FD0-4DD1B375720B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{7CE1E4AC-7442-4FB6-9AFE-D7231D1B4CB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{B5D3DEE8-298F-4F39-A9D6-586138E9A111}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7338236-1233-49AD-8FD0-4DD1B375720B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7338236-1233-49AD-8FD0-4DD1B375720B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7338236-1233-49AD-8FD0-4DD1B375720B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7338236-1233-49AD-8FD0-4DD1B375720B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE1E4AC-7442-4FB6-9AFE-D7231D1B4CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE1E4AC-7442-4FB6-9AFE-D7231D1B4CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE1E4AC-7442-4FB6-9AFE-D7231D1B4CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE1E4AC-7442-4FB6-9AFE-D7231D1B4CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D3DEE8-298F-4F39-A9D6-586138E9A111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D3DEE8-298F-4F39-A9D6-586138E9A111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D3DEE8-298F-4F39-A9D6-586138E9A111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D3DEE8-298F-4F39-A9D6-586138E9A111}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32D3BF37-DF36-42D7-8BFF-28B79AA5A250}
+	EndGlobalSection
+EndGlobal
