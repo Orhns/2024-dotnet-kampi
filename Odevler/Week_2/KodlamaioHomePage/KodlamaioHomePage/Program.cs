@@ -8,8 +8,8 @@ namespace KodlamaioHomePage
     {
         static void Main(string[] args)
         {
-            CategoryTest();
-            //TeacherTest();
+            //CategoryTest();
+            TeacherTest();
             //CourseTest();
         }
 
