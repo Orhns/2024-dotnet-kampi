@@ -15,10 +15,27 @@
 
             //foreach (string student in students) { Console.WriteLine(student); }
 
-            string[] students2 = { "Orhun", "Ali", "Ayşe" };
-            foreach (var student in students2) { Console.WriteLine(student); }
+            //string[] students2 = { "Orhun", "Ali", "Ayşe" };
+            //foreach (var student in students2) { Console.WriteLine(student); }
 
 
+            string[,] regions = new string[5, 3]
+            {
+                {"Istanbul","Izmit","Balikesir"},
+                {"Ankara","Konya","Kırıkkale" },
+                {"Antalya","Adana","Mersin" },
+                {"Rize","Samsun","Trabzon" },
+                {"Izmir","Muğla","Manisa" }
+            };
+
+            for (int i = 0; i <= regions.GetUpperBound(0); i++)
+            {
+                for (int j = 0; j <= regions.GetUpperBound(1); j++)
+                {
+                    Console.WriteLine(regions[i, j]);
+                }
+                Console.WriteLine("**************");
+            }
         }
     }
 }
